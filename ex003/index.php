@@ -32,13 +32,16 @@
     // $arr = [1, 2, 3, 4, 5, 6.8];
     // var_dump($arr);
 
-    class Person
-    {
-        private string $name;
-    }
+    // class Person
+    // {
+    //     private string $name;
+    // }
 
-    $p = new Person;
-    var_dump($p);
+    // $p = new Person;
+    // var_dump($p);
+
+    const NOME = "Fabricio";
+    echo "The variable value is " . NOME
     ?>
 </body>
 
